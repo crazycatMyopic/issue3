@@ -54,6 +54,7 @@ public class HelloController {
         Pane pane = (Pane) block.getChildren().get(block.getChildren().size()-1);
         if (!added) {
             URL url = this.getClass().getResource("/ball.png");
+            assert url != null;
             ImageView view = new ImageView(url.toExternalForm());
             pane.getChildren().add(view);
             view.setFitWidth(30);
