@@ -1,5 +1,10 @@
 # Issue
 
+## Link
+[SO Qustion](https://stackoverflow.com/questions/79821420/dragging-child-is-forcing-underlying-node-to-change-to-parent)
+
+## Discription
+
 I'm writing code in javaFx, which has a gridpane that has multiple cell's of different color. One of the pane has a Imageview as child.
 
 When i set the setOnMouseDragged on the imageview and start dragging the image, the cell's that the image crosses over on are surprisingly replaced by the parent of the imageView.
